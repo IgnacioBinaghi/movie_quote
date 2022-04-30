@@ -2,8 +2,6 @@ import random
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-# Movie Or Song: if word chosen is within the script and how many times
-
 
 def getScript(movie_script_link):
     url = movie_script_link
