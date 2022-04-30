@@ -15,7 +15,20 @@ $pip install urllib3
 
 # Usage
 
-Movie titles must be entered specifically as shown in the list of titles
+Within your shell, navigate towards the directory where the files were downloaded by using the 'cd' command
+
+For Example:
+```
+cd desktop
+cd movie_quote-main
+```
+Then, use the python command to open the main program
+
+```
+python main.py
+```
+
+`NECESSARY : Movie titles must be entered specifically as shown in the list of titles`
 
 # Movie's Provided
 
