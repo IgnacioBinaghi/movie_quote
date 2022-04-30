@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-from Find_film import *
+from RandomFilm import *
 
 
 while True:
