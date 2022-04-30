@@ -1,5 +1,5 @@
 # Movie-Quote
-Generate the number of times a word or words are said in a particular film given it is provided within the database
+Utilize web scraping to generate the number of times a word or words are said in a particular film given it is provided within the imsdb script database
 
 # Installation
 ### Linux
