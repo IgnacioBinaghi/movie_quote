@@ -20,14 +20,17 @@ while True:
     choice_0 = input('please choose a movie or type "random" for a random movie: ')
     if choice_0 == "random":
         choice = getRandomFilm()
+        print("Your movie is "+choice)
     else:
         u = getFilms()
         choice_1 = choice_0.title()
         if choice_1 in u:
             choice = choice_1
+            print("Your movie is "+choice)
         else:
             print("Movie isn't in our list... we'll assign you a random movie")
             choice = getRandomFilm()
+            print("Your movie is "+choice)
     choice = choice.replace(",","")
     choice = choice.replace(":","")
     movie_choice = getUrl(choice)
